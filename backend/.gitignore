@@ -1,0 +1,26 @@
+# Ignore build artifacts (for backend)
+bin/
+obj/
+*.dll
+*.exe
+
+# Ignore .NET Core artifacts
+__history/
+*.cache
+*.tmp
+*.db
+*.db-shm
+*.db-wal
+
+# Ignore Visual Studio files
+.vscode/
+*.suo
+*.user
+*.sln.docstates
+*.suo
+*.user
+*.userosscache
+*.sln.ide
+*.sln.ide-shm
+*.sln.ide-wal
+*.userprefs
