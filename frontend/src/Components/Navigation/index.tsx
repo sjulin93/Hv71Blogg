@@ -48,7 +48,7 @@ export default function Navigation() {
 
   return (
     <>
-      <Box bg="blue.hvBlue" px={4} color="white">
+      <Box bg="blue.hvBlue" px={4} color="white" position="absolute" minW="100%">
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <IconButton
             size={"md"}

@@ -1,15 +1,12 @@
-import HvLogo from "../../assets/Images/hv71logga.png";
-import styles from  "./Footer.module.css";
 import {
   Stack,
   HStack,
   Link,
   Divider,
-  Image,
   IconButton,
   LinkProps,
 } from "@chakra-ui/react";
-// Here we have used react-icons package for the icons
+
 import { FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const links = ["Blogg", "Om oss", "Podd", "Kontakta oss"];
@@ -40,6 +37,9 @@ const Footer = () => {
         alignItems="center"
         direction={{ base: "column", md: "row" }}
         marginTop='auto'
+        bg="blue.hvBlue" 
+        minWidth="100%"
+        color="white"
       >
         <HStack
           spacing={4}
